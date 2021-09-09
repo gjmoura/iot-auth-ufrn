@@ -19,9 +19,9 @@ router.post('/', function(req, res, next) {
     idade: body.idade,
     password: body.password
   })
-  console.log(novoUser)
+  console.log(novoUser);
   novoUser.save();
-  res.render('users', {user: novoUser}) 
+  res.render('users', {user: novoUser})
 });
 
 
