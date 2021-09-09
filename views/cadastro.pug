@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  .card
+    h1 Cadastro
+    form(action="/cadastro" method="post")
+      label(for="login") Nome de Usuário
+      input#login(type="text" name="username")
+      label(for="nome") Nome
+      input#nome(type="text" name="nome")
+      label(for="sobrenome") Sobrenome
+      input#sobrenome(type="text" name="sobrenome")
+      label(for="cpf") CPF
+      input#cpf(type="text" name="cpf")
+      label(for="cpf") Idade
+      input#idade(type="number" name="idade")
+      label(for="password") Senha 
+      input#password(type="password" name="password")
+      br
+      button#botao(type="submit") Entrar 
+    p Já possui login? <a href="/">Entrar</a>

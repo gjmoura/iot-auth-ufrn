@@ -1,0 +1,48 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #9AD1D4;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.card {
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
+  border-radius: 5px;
+  background-color: #003249;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+form input,
+form label {
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007EA7;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
+

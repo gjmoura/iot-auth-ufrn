@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  .card
+    h1 Login
+    form(action="/" method="post")
+      label(for="login") Nome de Usuário
+      input#login(type="text" name="username")
+      label(for="password") Senha 
+      input#password(type="password" name="password")
+      br
+      button#botao(type="submit") Entrar 
+    p Não possui login? <a href="/cadastro">Cadastrar</a>
+
