@@ -1,7 +1,7 @@
 {
-    "app_id": "iot-nodejs-ygxbr",
+    "app_id": "application-0-mbbrf",
     "config_version": 20210101,
-    "name": "iot-nodejs",
+    "name": "Application-0",
     "location": "US-VA",
     "deployment_model": "LOCAL"
 }
